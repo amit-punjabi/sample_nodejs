@@ -1,13 +1,6 @@
 
 module.exports = function (grunt) {
  grunt.initConfig({
-   express: {
-     test: {
-       options: {
-         script: "index.js"
-       }
-     }
-   },
    mochaTest: {
      test: {
        options: {
